@@ -45,9 +45,9 @@
     spots: [
       { id: 'handle', name: 'Enter', act: 'enter', place: 'below',
         d: 'M550 466 C580 466 594 492 592 524 C590 558 574 572 550 572 C524 572 508 556 508 524 C508 490 522 466 550 466 Z' },
-      { id: 'nameplate', name: 'Who am I?', act: 'about', place: 'above', when: (s) => !!(s.aboutText || s.aboutHistory.length),
+      { id: 'nameplate', name: 'Who am I?', act: 'about', place: 'above',
         d: 'M466 410 L606 404 L612 452 L470 460 Z' },
-      { id: 'mailbox', name: 'How to reach me', act: 'mail', place: 'below', when: (s) => !!s.email,
+      { id: 'mailbox', name: 'How to reach me', act: 'mail', place: 'below',
         d: 'M758 474 C758 448 772 438 792 437 L862 436 L866 424 L898 420 L901 446 L879 452 L879 530 L772 536 L760 522 Z' },
     ],
   };
@@ -492,7 +492,11 @@
         <span class="addr-to">To reach me</span>
         <span class="addr-mail">${esc(site().email)}</span>
         <button class="addr-copy" type="button">Copy</button>
-      </div>` : '');
+      </div>` : `
+      <div class="addr-label soon" style="left:${al.x}px;top:${al.y}px;width:${al.w}px;height:${al.h}px" hidden>
+        <span class="addr-to">To reach me</span>
+        <span class="addr-soon">Coming soon</span>
+      </div>`);
     const st = buildStage(PORCH, inside, over);
     const view = el(`<div class="view porch-view">${topbar()}
         <p class="porch-hint"><span class="hint-mouse">Look around the porch, then click the door handle to come in</span><span class="hint-touch">Tap the door handle to come in</span></p>
@@ -596,6 +600,7 @@
   }
   function fitMail(lab) {
     const m = $('.addr-mail', lab);
+    if (!m) return; // no address yet: the label says "Coming soon"
     let size = 7.5;
     m.style.fontSize = size + 'px';
     while (m.scrollWidth > lab.clientWidth - 6 && size > 3) { size -= 0.25; m.style.fontSize = size + 'px'; }
@@ -618,6 +623,7 @@
           <h2>${esc(siteName())}</h2>
           ${paras.map((p) => `<p>${esc(p)}</p>`).join('')}
           ${s.aboutHistory.length ? `<ul>${s.aboutHistory.map((h) => `<li>${esc(h)}</li>`).join('')}</ul>` : ''}
+          ${!paras.length && !s.aboutHistory.length ? '<p class="soon-note">My story is coming soon.</p>' : ''}
         </div>
       </div>`);
   }
@@ -736,7 +742,13 @@
     room.hint.classList.remove('gone');
     if (zone) applyZone(zone, false);
   }
+  // A thing is shown (title, glow, bubble) when it has a place on the site: a category or a link.
   function thingActive(t) {
+    if (t.link || t.music) return true;
+    return !!t.cat;
+  }
+  // ...and it has something to open when its category has public work, its link is set, or a song is ready.
+  function thingReady(t) {
     if (t.link) return !!site()[t.link];
     if (t.music) return !!site().featuredTrack || catActive(t.cat);
     return !!t.cat && catActive(t.cat);
@@ -746,7 +758,7 @@
   }
   function thingName(t) {
     if (t.link) return t.name;
-    if (t.music && !catActive(t.cat)) return 'Turntable';
+    if (t.music && !catActive(t.cat)) return t.cat && !site().featuredTrack ? cats()[t.cat].name : 'Turntable';
     return cats()[t.cat].name;
   }
   function buildRoomView() {
@@ -890,7 +902,7 @@
     ROOM.things.filter((t) => t.zone === room.zone && thingActive(t) && t.tag).forEach((t) => {
       const [x, y, dir] = t.tag;
       const p = st.toScreen({ x, y, width: 0, height: 0 });
-      const tag = el(`<span class="tag ${dir}" style="left:${p.left}px;top:${p.top}px">${esc(thingName(t))}</span>`);
+      const tag = el(`<span class="tag ${dir}${thingReady(t) ? '' : ' soon'}" style="left:${p.left}px;top:${p.top}px">${esc(thingName(t))}</span>`);
       st.hud.append(tag);
       room.tags.push({ t, tag });
     });
@@ -913,7 +925,7 @@
     if (how === 'hover' && touchFirst()) return;
     // focus from a mouse click or from code shouldn't pop it open; keyboard focus should
     if (how === 'focus' && !st.spots[t.id].p.matches(':focus-visible')) return;
-    if (t.link) {
+    if (t.link && thingReady(t)) {
       closePop(room);
       glowOn(st, t.d);
       showLabel(st, bboxOf(st, t.id), `<b>${esc(t.name)}</b><span>Opens in a new tab ↗</span>`, 'below', t.id);
@@ -934,6 +946,7 @@
   // Clicking (or tapping) a thing does the same as its bubble's button.
   function thingAct(room, t) {
     if (!room.zone) { goZone(t.zone); return; }
+    if (!thingReady(t)) { openPop(room, t); return; } // nothing here yet: the bubble says so
     if (t.link) { window.open(site()[t.link], '_blank', 'noopener'); return; }
     if (catActive(t.cat)) { openCatFromRoom(t.cat); return; }
     openPop(room, t); // turntable with a song but no compositions page yet: the play button lives in the bubble
@@ -947,7 +960,9 @@
     closePop(room);
     glowOn(st, t.d);
     let html;
-    if (t.music) {
+    if (!thingReady(t)) {
+      html = `<b class="pop-title">${esc(thingName(t))}</b><span class="pop-soon">Coming soon</span>`;
+    } else if (t.music) {
       const tr = site().featuredTrack;
       html = `
         ${catActive(t.cat) ? `<b class="pop-title">${esc(cats()[t.cat].name)}</b><button class="btn small primary" type="button" data-open="${esc(t.cat)}">${esc(cats()[t.cat].button)} →</button>` : '<b class="pop-title">Turntable</b>'}
@@ -1040,6 +1055,7 @@
     if (state.busy || $('.map')) return;
     const groups = Object.entries(ROOM.zones).map(([key, z]) => {
       const rows = ROOM.things.filter((t) => t.zone === key && thingActive(t)).map((t) => {
+        if (!thingReady(t)) return `<li><button class="map-row soon" type="button" data-zone-go="${key}" data-thing="${t.id}">${esc(thingName(t))} <span class="soon-tag">soon</span></button></li>`;
         if (t.link) return `<li><a class="map-row" href="${esc(site()[t.link])}" target="_blank" rel="noopener">${esc(t.name)} <span aria-hidden="true">↗</span></a></li>`;
         if (t.music && !catActive(t.cat)) return `<li><button class="map-row" type="button" data-zone-go="${key}" data-thing="${t.id}">Turntable</button></li>`;
         return `<li><button class="map-row" type="button" data-cat="${t.cat}">${esc(cats()[t.cat].name)}</button></li>`;

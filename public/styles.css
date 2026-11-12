@@ -430,3 +430,13 @@ svg.spots.debug .spot.zone { fill: rgba(0, 120, 255, .08); stroke: #2a7fff; stro
 .preview-banner p { margin: 4px 0; }
 .preview-banner ul { margin: 2px 0 6px; padding-left: 20px; }
 .preview-banner .pv-err li { color: #a1271b; font-weight: 700; }
+
+/* Not ready yet: shown, but quieter, with a "coming soon" note */
+.tag.soon { border-style: dashed; }
+.tag.soon:not(.hide) { opacity: .72; }
+.pop-soon { font-size: 14px; font-weight: 700; color: var(--muted, #6b5d4c); font-style: italic; }
+.map-row.soon { opacity: .75; }
+.map-row .soon-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; border: 1.5px dashed currentColor; border-radius: 99px; padding: 0 6px; margin-left: 4px; }
+.addr-label.soon { justify-content: center; }
+.addr-soon { display: block; font-weight: 700; font-size: 7.5px; line-height: 1.3; font-style: italic; opacity: .8; }
+.plate-back .soon-note { font-style: italic; opacity: .8; }
