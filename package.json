@@ -1,0 +1,19 @@
+{
+  "name": "kkwyeong-ing-hing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "뀡잉힝의 나무집 포트폴리오",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "set-password": "node scripts/set-password.js",
+    "test:notion": "node tests/notion/flow.mjs .",
+    "build": "node scripts/build-static.js",
+    "sync": "node scripts/sync.js",
+    "serve:static": "node scripts/serve-static.js",
+    "test:static": "node tests/notion/static-flow.mjs ."
+  }
+}

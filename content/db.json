@@ -1,0 +1,358 @@
+{
+  "settings": {
+    "naverUrl": "",
+    "instagramUrl": "",
+    "siteName": "Plot Twist",
+    "email": "",
+    "aboutText": "",
+    "aboutHistory": "",
+    "featuredTrackId": null
+  },
+  "items": [
+    {
+      "id": "94b02136c6c2b792ed750cc8",
+      "slug": "gachitayong",
+      "category": "competitions",
+      "title": "Gachitayong",
+      "summary": "A web app prototype that helps HUFS students find classmates heading the same way, so they can share carpools or taxi rides.",
+      "context": "Team project · 2026 HUFS × NAVER Cloud Vibe Coding Competition",
+      "role": "Team lead, Problem research, Service planning, Screen design, Backend & deployment lead",
+      "result": "",
+      "body": "Built as a team entry for the 2026 Hankuk University of Foreign Studies × NAVER Cloud Vibe Coding Competition.\n\nAs team lead, I covered problem research, service planning and screen design, and led the backend and deployment.",
+      "coverFileId": null,
+      "galleryFileIds": [],
+      "links": [
+        {
+          "label": "Try the prototype",
+          "url": "https://49-50-141-146.sslip.io"
+        }
+      ],
+      "isPublic": true,
+      "isFeatured": true,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "createdAt": "2026-11-11T11:47:12.486Z",
+      "updatedAt": "2026-11-12T14:57:45.051Z",
+      "sub": "hackathons",
+      "thumbFileId": null,
+      "audioFileId": null,
+      "notionPageId": "416f55c59f3a817e974fcc8fdcb493d6",
+      "firstPublishedAt": "2026-11-12T14:57:45.051Z",
+      "lastPublishedAt": "2026-11-12T14:57:45.051Z",
+      "publishedVersion": 1,
+      "publishedFp": "3ea73e975349788b87259ffa6ee607e74ce4b5bb",
+      "pendingWriteback": false
+    }
+  ],
+  "files": [],
+  "categories": {
+    "competitions": {
+      "name": "Competitions",
+      "ko": "공모전",
+      "button": "View competitions",
+      "thing": "board",
+      "order": 1,
+      "enabled": true,
+      "notionId": "416f55c59f3a8145ad5fe06b24d8098a",
+      "subs": [
+        {
+          "id": "hackathons",
+          "name": "Hackathons",
+          "ko": "해커톤",
+          "enabled": true,
+          "notionId": "416f55c59f3a815392d5fa9e231ac8af"
+        },
+        {
+          "id": "startup",
+          "name": "Startup Competitions",
+          "ko": "창업 경진대회",
+          "enabled": true,
+          "notionId": "416f55c59f3a8153be9ec4e02d536f78"
+        },
+        {
+          "id": "planning-design",
+          "name": "Planning & Design Contests",
+          "ko": "기획·디자인 공모전",
+          "enabled": true,
+          "notionId": "416f55c59f3a815185e3e8c7f379ae61"
+        }
+      ]
+    },
+    "coding": {
+      "name": "Coding",
+      "ko": "코딩",
+      "button": "Explore builds",
+      "thing": "crt",
+      "order": 2,
+      "enabled": true,
+      "notionId": "416f55c59f3a81beaf45eded7497bd47",
+      "subs": [
+        {
+          "id": "apps",
+          "name": "Apps",
+          "ko": "앱",
+          "enabled": true,
+          "notionId": "416f55c59f3a81e5a8e8edf12a57983b"
+        },
+        {
+          "id": "web-services",
+          "name": "Web Services",
+          "ko": "웹서비스",
+          "enabled": true,
+          "notionId": "416f55c59f3a81959377f4356a3908eb"
+        },
+        {
+          "id": "websites",
+          "name": "Websites",
+          "ko": "웹사이트",
+          "enabled": true,
+          "notionId": "416f55c59f3a811b843cd7f574154c61"
+        },
+        {
+          "id": "tools",
+          "name": "Tools & Automation",
+          "ko": "도구·자동화",
+          "enabled": true,
+          "notionId": "416f55c59f3a817cb145ce771a7ace11"
+        }
+      ]
+    },
+    "work": {
+      "name": "Work Log",
+      "ko": "일한 기록",
+      "button": "View work history",
+      "thing": "shirt",
+      "order": 3,
+      "enabled": true,
+      "notionId": "416f55c59f3a81258a82e10173127895",
+      "subs": [
+        {
+          "id": "part-time",
+          "name": "Part-time Jobs",
+          "ko": "아르바이트",
+          "enabled": true,
+          "notionId": "416f55c59f3a81cdb557e4b04ee01f56"
+        },
+        {
+          "id": "selling",
+          "name": "Direct Sales",
+          "ko": "직접 판매",
+          "enabled": true,
+          "notionId": "416f55c59f3a818d92c6d7ba66e2196e"
+        },
+        {
+          "id": "freelance",
+          "name": "Freelance & Collaboration",
+          "ko": "외주·협업",
+          "enabled": true,
+          "notionId": "416f55c59f3a812292dff04bd4d7a4cd"
+        }
+      ]
+    },
+    "ideas": {
+      "name": "Ideas",
+      "ko": "아이디어",
+      "button": "Open the chest",
+      "thing": "chest",
+      "order": 4,
+      "enabled": true,
+      "notionId": "416f55c59f3a816792b6eb7a9748b29a",
+      "subs": [
+        {
+          "id": "service",
+          "name": "Service Ideas",
+          "ko": "서비스 아이디어",
+          "enabled": true,
+          "notionId": "416f55c59f3a81a88602f813e805effc"
+        },
+        {
+          "id": "product",
+          "name": "Product Ideas",
+          "ko": "제품 아이디어",
+          "enabled": true,
+          "notionId": "416f55c59f3a817a9b15ee20a98c0f06"
+        },
+        {
+          "id": "content",
+          "name": "Content Planning",
+          "ko": "콘텐츠 기획",
+          "enabled": true,
+          "notionId": "416f55c59f3a81f4ad55dafd290e36c3"
+        }
+      ]
+    },
+    "study": {
+      "name": "Study & Certifications",
+      "ko": "공부·자격증",
+      "button": "Browse the shelf",
+      "thing": "bookshelf",
+      "order": 5,
+      "enabled": true,
+      "notionId": "416f55c59f3a819bb572ddfdb690fc97",
+      "subs": [
+        {
+          "id": "notes",
+          "name": "Study Notes",
+          "ko": "학습 기록",
+          "enabled": true,
+          "notionId": "416f55c59f3a81eb95c9f25c41b07019"
+        },
+        {
+          "id": "certs",
+          "name": "Certifications",
+          "ko": "자격증",
+          "enabled": true,
+          "notionId": "416f55c59f3a81a2b73bdb15614ea966"
+        },
+        {
+          "id": "research",
+          "name": "Research & Talks",
+          "ko": "조사·발표",
+          "enabled": true,
+          "notionId": "416f55c59f3a8188beddfe11b21f5bf3"
+        }
+      ]
+    },
+    "clubs": {
+      "name": "Clubs",
+      "ko": "동아리",
+      "button": "View club activities",
+      "thing": "cork",
+      "order": 6,
+      "enabled": true,
+      "notionId": "416f55c59f3a8193ae35d3d129926acd",
+      "subs": [
+        {
+          "id": "projects",
+          "name": "Projects",
+          "ko": "프로젝트",
+          "enabled": true,
+          "notionId": "416f55c59f3a8121bf05ed34774f35d0"
+        },
+        {
+          "id": "events",
+          "name": "Events",
+          "ko": "행사",
+          "enabled": true,
+          "notionId": "416f55c59f3a81eaa7fcff86b08b82ad"
+        },
+        {
+          "id": "operations",
+          "name": "Operations & Planning",
+          "ko": "운영·기획",
+          "enabled": true,
+          "notionId": "416f55c59f3a81a5bf07fbfb686fd495"
+        }
+      ]
+    },
+    "hobbies": {
+      "name": "Hobbies",
+      "ko": "취미",
+      "button": "Explore hobbies",
+      "thing": "bed",
+      "order": 7,
+      "enabled": true,
+      "notionId": "416f55c59f3a8153935bc4a7973228fb",
+      "subs": [
+        {
+          "id": "games",
+          "name": "Games",
+          "ko": "게임",
+          "enabled": true,
+          "notionId": "416f55c59f3a81f7b4fcee335905d8fb"
+        },
+        {
+          "id": "screen",
+          "name": "Movies & Dramas",
+          "ko": "영화·드라마",
+          "enabled": true,
+          "notionId": "416f55c59f3a8176ba8dda9d33ebb5f9"
+        },
+        {
+          "id": "music",
+          "name": "Music",
+          "ko": "음악",
+          "enabled": true,
+          "notionId": "416f55c59f3a81639984f8f3d5878566"
+        },
+        {
+          "id": "drinks",
+          "name": "Drinks",
+          "ko": "술",
+          "enabled": true,
+          "notionId": "416f55c59f3a81c98480f307ab988f3a"
+        },
+        {
+          "id": "crafts",
+          "name": "Hobby Projects",
+          "ko": "취미 작업",
+          "enabled": true,
+          "notionId": "416f55c59f3a81a9a8c4f45cdc4269eb"
+        }
+      ]
+    },
+    "love": {
+      "name": "Love",
+      "ko": "사랑",
+      "button": "Open the journal",
+      "thing": "diary",
+      "order": 8,
+      "enabled": true,
+      "notionId": "416f55c59f3a8178bddbed47db4f0aed",
+      "subs": [
+        {
+          "id": "stories",
+          "name": "Love Stories",
+          "ko": "연애 이야기",
+          "enabled": true,
+          "notionId": "416f55c59f3a818183e5f56529ac4efe"
+        },
+        {
+          "id": "letters",
+          "name": "Letters",
+          "ko": "편지",
+          "enabled": true,
+          "notionId": "416f55c59f3a81878b0ec42f73b99810"
+        },
+        {
+          "id": "looking-back",
+          "name": "Looking Back",
+          "ko": "돌아보기",
+          "enabled": true,
+          "notionId": "416f55c59f3a810b978dc61efe74799a"
+        }
+      ]
+    },
+    "compositions": {
+      "name": "Compositions",
+      "ko": "작곡",
+      "button": "Browse compositions",
+      "thing": "turntable",
+      "order": 9,
+      "enabled": true,
+      "notionId": "416f55c59f3a815b8d6ff86c26fff3cf",
+      "subs": []
+    }
+  },
+  "notionSync": {
+    "lastRunAt": null,
+    "lastOkAt": null,
+    "log": [
+      {
+        "at": "2026-11-12T14:57:45.053Z",
+        "level": "ok",
+        "title": "Gachitayong",
+        "msg": "v1 공개 (/w/gachitayong)"
+      },
+      {
+        "at": "2026-11-12T14:52:47.692Z",
+        "level": "ok",
+        "title": "분류 관리",
+        "msg": "분류 이름·순서·방 물건 연결을 노션 기준으로 맞췄어요."
+      }
+    ],
+    "failures": {}
+  }
+}
