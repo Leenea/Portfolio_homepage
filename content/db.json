@@ -74,8 +74,7 @@
       "createdAt": "2026-11-12T22:15:59.058Z",
       "updatedAt": "2026-11-12T22:15:59.058Z",
       "publishedFp": "d49b2d3e1a381444163b8e27f262a5b582947b69",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     }
   ],
   "files": [
@@ -391,6 +390,12 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-12T22:16:02.166Z",
+        "level": "ok",
+        "title": "Where It Began",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
       {
         "at": "2026-11-12T22:15:59.059Z",
         "level": "ok",
