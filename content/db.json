@@ -44,9 +44,60 @@
       "publishedVersion": 1,
       "publishedFp": "3ea73e975349788b87259ffa6ee607e74ce4b5bb",
       "pendingWriteback": false
+    },
+    {
+      "id": "4c2c098881b50e0f05fb702f",
+      "slug": "where-it-began",
+      "category": "compositions",
+      "sub": "",
+      "title": "Where It Began",
+      "summary": "A nostalgic 90s Japanese jazz hip-hop track that emerges from a submerged, muffled intro into crisp boom bap drums, weaving warm acoustic guitar, expressive tenor saxophone, shamisen plucks, and dreamy 70s soul male vocal chops.",
+      "context": "Solo project · First AI-assisted track",
+      "role": "Prompt Direction",
+      "result": "",
+      "body": "Inspired by the breezy yet lyrical jazz hip-hop mood of Nujabes and the anime Samurai Champloo, I wanted to make my first AI-assisted track — one that blends 70s vintage R&B vocal sampling with an underwater-filter build. I directed it through prompts in Suno v6-mini and finished it in a single focused day in November 2026.\n\nThe track opens muffled and submerged, then breaks into crisp 95 BPM boom bap drums. Upright bass, nylon-string acoustic guitar, tenor saxophone and shamisen plucks weave around dreamy 70s soul male vocal chops, all wrapped in vinyl crackle.\n\n\"Even the wind forgets where it began...\"",
+      "coverFileId": "cfc15cb33d5f7b70161dca7c",
+      "thumbFileId": null,
+      "audioFileId": "efdf569533ded7b150fe1dc6",
+      "galleryFileIds": [],
+      "links": [],
+      "isPublic": true,
+      "isFeatured": true,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "416f55c59f3a813eb58ddab88df9d8aa",
+      "firstPublishedAt": "2026-11-12T22:15:59.058Z",
+      "lastPublishedAt": "2026-11-12T22:15:59.058Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-12T22:15:59.058Z",
+      "updatedAt": "2026-11-12T22:15:59.058Z",
+      "publishedFp": "d49b2d3e1a381444163b8e27f262a5b582947b69",
+      "pendingWriteback": true,
+      "publishWarnings": []
     }
   ],
-  "files": [],
+  "files": [
+    {
+      "id": "cfc15cb33d5f7b70161dca7c",
+      "itemId": "4c2c098881b50e0f05fb702f",
+      "kind": "cover",
+      "name": "시부야, 시작된 곳.png",
+      "mime": "image/png",
+      "size": 3640833,
+      "createdAt": "2026-11-12T22:15:59.058Z"
+    },
+    {
+      "id": "efdf569533ded7b150fe1dc6",
+      "itemId": "4c2c098881b50e0f05fb702f",
+      "kind": "audio",
+      "name": "Where It Began.m4a",
+      "mime": "audio/x-m4a",
+      "size": 3193935,
+      "createdAt": "2026-11-12T22:15:59.058Z"
+    }
+  ],
   "categories": {
     "competitions": {
       "name": "Competitions",
@@ -340,6 +391,12 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-12T22:15:59.059Z",
+        "level": "ok",
+        "title": "Where It Began",
+        "msg": "v1 공개 (/w/where-it-began)"
+      },
       {
         "at": "2026-11-12T14:57:45.053Z",
         "level": "ok",
