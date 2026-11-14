@@ -170,13 +170,16 @@ svg.spots.debug .spot.zone { fill: rgba(0, 120, 255, .08); stroke: #2a7fff; stro
 .addr-copy:focus-visible { outline: 1.5px solid var(--ink); outline-offset: 1px; }
 
 /* nameplate flipping to its back */
-.plate-card { position: absolute; left: 0; top: 0; transform-origin: 50% 50%; transform-style: preserve-3d; z-index: 8; }
-.plate-front, .plate-back { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.plate-card { position: absolute; left: 0; top: 0; transform-origin: 50% 50%; z-index: 8; }
+.plate-front, .plate-back { position: absolute; inset: 0; }
+/* one face at a time (no 3D, so Safari shows the same thing as other browsers) */
+.plate-card .plate-back { visibility: hidden; }
+.plate-card.show-back .plate-back { visibility: visible; }
+.plate-card.show-back .plate-front { visibility: hidden; }
 .plate-front { background-image: url(/img/porch.png); background-repeat: no-repeat; display: flex; align-items: center; justify-content: center; }
 .plate-front { box-sizing: border-box; }
 .plate-front span { font-family: var(--display); font-weight: 600; color: #5a3519; white-space: nowrap; line-height: 1; text-shadow: 0 1px 0 rgba(255, 236, 200, .55); }
 .plate-back {
-  transform: rotateY(180deg);
   border-style: solid; border-width: 26px 46px; border-image: url(/img/plank.png) 60 120 fill / 26px 46px stretch;
   padding: 4px 6px; overflow: auto; color: #4a2a14; outline: none;
   filter: drop-shadow(0 6px 0 rgba(60, 35, 15, .35));

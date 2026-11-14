@@ -56,7 +56,8 @@
     key: 'room', img: '/img/room.png', w: 1586, h: 992,
     zones: {
       desk: { name: 'Desk', box: { x: 62, y: 186, width: 540, height: 500 }, d: 'M60 190 L596 190 L596 690 L60 690 Z' },
-      wall: { name: 'Wall', box: { x: 590, y: 140, width: 680, height: 430 }, d: 'M598 140 L1272 140 L1272 462 L960 462 L944 560 L598 560 Z' },
+      // narrowBox: on phones the wall is framed on the bookshelf, club board and the two frames (with room for their titles)
+      wall: { name: 'Wall', box: { x: 590, y: 140, width: 680, height: 430 }, narrowBox: { x: 556, y: 190, width: 384, height: 392 }, d: 'M598 140 L1272 140 L1272 462 L960 462 L944 560 L598 560 Z' },
       rest: { name: 'Rest corner', box: { x: 940, y: 280, width: 646, height: 480 }, d: 'M944 462 L1272 462 L1272 290 L1586 290 L1586 770 L944 770 Z' },
     },
     things: [
@@ -587,12 +588,13 @@
       card.style.height = H + 'px';
       const fx = clamp(to0.left + to0.width / 2, W / 2 + 16, vw - W / 2 - 16);
       const fy = clamp(to0.top + to0.height / 2, H / 2 + 76, vh - H / 2 - 16);
-      const startT = `translate(${from.left + from.width / 2 - W / 2}px, ${from.top + from.height / 2 - H / 2}px) scale(${from.width / W}, ${from.height / H}) rotateY(0deg)`;
-      const endT = `translate(${fx - W / 2}px, ${fy - H / 2}px) scale(1, 1) rotateY(180deg)`;
-      card.style.transform = startT;
+      const start = { x: from.left + from.width / 2 - W / 2, y: from.top + from.height / 2 - H / 2, sx: from.width / W, sy: from.height / H };
+      const end = { x: fx - W / 2, y: fy - H / 2, sx: 1, sy: 1 };
+      card.style.transform = cardT(start);
+      P.cardEnd = end;
       await Promise.all([
         st.moveCam(cam, T_ZOOM + 40),
-        play(card, [{ transform: startT }, { transform: endT }], { duration: T_ZOOM + 60, easing: EASE_INOUT }),
+        flipCard(card, start, end, T_ZOOM + 60, true),
       ]);
       card.classList.add('flipped');
       $('.plate-back', card).focus({ preventScroll: true });
@@ -627,6 +629,15 @@
         </div>
       </div>`);
   }
+  // The plate flips without 3D: it folds to an edge, the other face comes up, and it unfolds.
+  // (Safari does not reliably hide the back face of a 3D-rotated card, so both faces could show.)
+  const cardT = (c) => `translate(${c.x}px, ${c.y}px) scale(${c.sx}, ${c.sy})`;
+  async function flipCard(card, from, to, duration, toBack) {
+    const mid = { x: (from.x + to.x) / 2, y: (from.y + to.y) / 2, sx: 0.001, sy: (from.sy + to.sy) / 2 };
+    await play(card, [{ transform: cardT(from) }, { transform: cardT(mid) }], { duration: duration / 2, easing: 'cubic-bezier(.5,0,.9,.6)' });
+    card.classList.toggle('show-back', toBack);
+    await play(card, [{ transform: cardT(mid) }, { transform: cardT(to) }], { duration: duration / 2, easing: 'cubic-bezier(.1,.4,.5,1)' });
+  }
   async function porchUnfocus() {
     const P = state.porch, st = P.st;
     const back = P.prevCam || { t: { x: 0, y: 0 }, z: 1 };
@@ -641,10 +652,10 @@
       card.classList.remove('flipped');
       const to = st.toScreen(P.cardBox, back);
       const W = card.offsetWidth, H = card.offsetHeight;
-      const endT = `translate(${to.left + to.width / 2 - W / 2}px, ${to.top + to.height / 2 - H / 2}px) scale(${to.width / W}, ${to.height / H}) rotateY(0deg)`;
+      const end = { x: to.left + to.width / 2 - W / 2, y: to.top + to.height / 2 - H / 2, sx: to.width / W, sy: to.height / H };
       await Promise.all([
         st.moveCam(back, T_BACK + 40),
-        play(card, [{ transform: card.style.transform }, { transform: endT }], { duration: T_BACK + 40, easing: EASE_INOUT }),
+        flipCard(card, P.cardEnd, end, T_BACK + 40, false),
       ]);
       card.remove();
       P.card = null;
@@ -838,8 +849,9 @@
   function zoneCam(st, key) {
     const z = ROOM.zones[key];
     const vw = window.innerWidth, vh = window.innerHeight - 64;
-    const zoom = clamp(Math.min(vw / (z.box.width * st.s), vh / (z.box.height * st.s)) * 0.96, 1, 2.3);
-    const cam = st.cameraFor(z.box, zoom);
+    const box = vw < 760 && z.narrowBox ? z.narrowBox : z.box;
+    const zoom = clamp(Math.min(vw / (box.width * st.s), vh / (box.height * st.s)) * 0.96, 1, 2.3);
+    const cam = st.cameraFor(box, zoom);
     cam.t.y = Math.min(-st.offY, Math.max(-st.offY + window.innerHeight - ROOM.h * st.s * zoom, cam.t.y + 22));
     return cam;
   }
