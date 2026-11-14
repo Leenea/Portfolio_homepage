@@ -56,9 +56,9 @@
       "role": "Prompt Direction",
       "result": "",
       "body": "Inspired by the breezy yet lyrical jazz hip-hop mood of Nujabes and the anime Samurai Champloo, I wanted to make my first AI-assisted track — one that blends 70s vintage R&B vocal sampling with an underwater-filter build. I directed it through prompts in Suno v6-mini and finished it in a single focused day in November 2026.\n\nThe track opens muffled and submerged, then breaks into crisp 95 BPM boom bap drums. Upright bass, nylon-string acoustic guitar, tenor saxophone and shamisen plucks weave around dreamy 70s soul male vocal chops, all wrapped in vinyl crackle.\n\n\"Even the wind forgets where it began...\"",
-      "coverFileId": "cfc15cb33d5f7b70161dca7c",
+      "coverFileId": "9a1a66c9b847097d39e2727a",
       "thumbFileId": null,
-      "audioFileId": "efdf569533ded7b150fe1dc6",
+      "audioFileId": "185ad7ada23138d0279b98cc",
       "galleryFileIds": [],
       "links": [],
       "isPublic": true,
@@ -69,32 +69,83 @@
       "attachmentFileIds": [],
       "notionPageId": "416f55c59f3a813eb58ddab88df9d8aa",
       "firstPublishedAt": "2026-11-12T22:15:59.058Z",
-      "lastPublishedAt": "2026-11-12T22:15:59.058Z",
-      "publishedVersion": 1,
+      "lastPublishedAt": "2026-11-14T15:56:39.335Z",
+      "publishedVersion": 2,
       "createdAt": "2026-11-12T22:15:59.058Z",
-      "updatedAt": "2026-11-12T22:15:59.058Z",
-      "publishedFp": "d49b2d3e1a381444163b8e27f262a5b582947b69",
-      "pendingWriteback": false
+      "updatedAt": "2026-11-14T15:56:39.335Z",
+      "publishedFp": "4573b4d1f9481ff690782a039df3d9fc25c6df37",
+      "pendingWriteback": true,
+      "publishWarnings": []
+    },
+    {
+      "id": "5da724a93f7558b3ca89d030",
+      "slug": "still-water-racing-heart",
+      "category": "compositions",
+      "sub": "",
+      "title": "Still Water Racing Heart",
+      "summary": "Chasing the golden hour with a glassy surface and a restless pulse—an upbeat neo-soul drive through stillness and motion.",
+      "context": "Solo project · AI-assisted track",
+      "role": "Prompt Direction",
+      "result": "",
+      "body": "This track began with the sense of freedom on a drive along a lakeside road at sunset. On the surface, the lake lies still as a mirror, holding the glow of the evening (Still Water), but beneath it, restless waves, tangled human struggles and a racing heart keep moving. I wanted to capture that contradictory moment over an upbeat, funky beat.\n\nPunchy 100 BPM 90s boom bap drums with a snappy snare and a bouncing upright bassline anchor the groove. Warm Rhodes electric piano chords, bright brass stabs and a vintage vinyl texture sit on top, while a laid-back, rhythmic male R&B sing-rap vocal completes the ride. Produced solo with Suno v6 through prompt direction.\n\nStill water, racing heart, burning in the evening glow / Sunset painting fire on the undertow / We're moving while we're standing still, dancing on the edge / A quiet storm beneath the calm, hanging on a ledge",
+      "coverFileId": "c87efdd2a4efea41306a6296",
+      "thumbFileId": null,
+      "audioFileId": "842a7cbb103f24381df295ac",
+      "galleryFileIds": [],
+      "links": [],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "418f55c59f3a81f2b228f1223ac965d2",
+      "firstPublishedAt": "2026-11-14T15:56:38.620Z",
+      "lastPublishedAt": "2026-11-14T15:56:38.620Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-14T15:56:38.620Z",
+      "updatedAt": "2026-11-14T15:56:38.620Z",
+      "publishedFp": "b27008bbf0aaca40e7a255f1ea98b451fb058d00",
+      "pendingWriteback": true,
+      "publishWarnings": []
     }
   ],
   "files": [
     {
-      "id": "cfc15cb33d5f7b70161dca7c",
+      "id": "c87efdd2a4efea41306a6296",
+      "itemId": "5da724a93f7558b3ca89d030",
+      "kind": "cover",
+      "name": "Still Water, Racing Heart_노을빛 호숫길을 질주하는 레드 컨버터블.png",
+      "mime": "image/png",
+      "size": 3290004,
+      "createdAt": "2026-11-14T15:56:38.620Z"
+    },
+    {
+      "id": "842a7cbb103f24381df295ac",
+      "itemId": "5da724a93f7558b3ca89d030",
+      "kind": "audio",
+      "name": "Still Water, Racing Heart.m4a",
+      "mime": "audio/x-m4a",
+      "size": 3329915,
+      "createdAt": "2026-11-14T15:56:38.620Z"
+    },
+    {
+      "id": "9a1a66c9b847097d39e2727a",
       "itemId": "4c2c098881b50e0f05fb702f",
       "kind": "cover",
       "name": "시부야, 시작된 곳.png",
       "mime": "image/png",
       "size": 3640833,
-      "createdAt": "2026-11-12T22:15:59.058Z"
+      "createdAt": "2026-11-14T15:56:39.335Z"
     },
     {
-      "id": "efdf569533ded7b150fe1dc6",
+      "id": "185ad7ada23138d0279b98cc",
       "itemId": "4c2c098881b50e0f05fb702f",
       "kind": "audio",
       "name": "Where It Began.m4a",
       "mime": "audio/x-m4a",
-      "size": 3193935,
-      "createdAt": "2026-11-12T22:15:59.058Z"
+      "size": 3273087,
+      "createdAt": "2026-11-14T15:56:39.335Z"
     }
   ],
   "categories": {
@@ -390,6 +441,18 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-14T15:56:39.337Z",
+        "level": "ok",
+        "title": "Where It Began",
+        "msg": "v2 공개 (/w/where-it-began)"
+      },
+      {
+        "at": "2026-11-14T15:56:38.621Z",
+        "level": "ok",
+        "title": "Still Water Racing Heart",
+        "msg": "v1 공개 (/w/still-water-racing-heart)"
+      },
       {
         "at": "2026-11-12T22:16:02.166Z",
         "level": "ok",
