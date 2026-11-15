@@ -106,6 +106,70 @@
       "updatedAt": "2026-11-14T15:56:38.620Z",
       "publishedFp": "b27008bbf0aaca40e7a255f1ea98b451fb058d00",
       "pendingWriteback": false
+    },
+    {
+      "id": "89cf4ae483625fae532a53bb",
+      "slug": "when-our-footsteps-fell-silent",
+      "category": "compositions",
+      "sub": "",
+      "title": "When Our Footsteps Fell Silent",
+      "summary": "A piano-led jazz hip-hop track about looking up at the night sky and suddenly remembering the moment our footsteps fell silent at a red light.",
+      "context": "Solo project · AI-assisted track",
+      "role": "Prompt Direction",
+      "result": "",
+      "body": "I wanted to bring together the jazz hip-hop groove of Nujabes and the piano-driven, slowly building arc I felt in \"Sparkle\" from the film Your Name. The song follows a late-night walk: stopping at a red light, looking up at a single star, and suddenly glancing toward the way someone used to walk beside me.\n\nA clear grand piano, crisp boom bap drums and a warm bassline lead the way at a target tempo of 86 BPM. After the low, calm Korean vocal fades out, thin strings rise to carry the ending. Produced solo with Suno v6 through prompt direction.\n\n오늘도 그 길을 걷다가 / 빨간불에 멈춰 섰어 / 고개 들어 별 하나를 보다 / 문득 네가 걷던 쪽을 봤어\n\n우리 발소리가 나란히 멎던 밤 / 그때의 고요가 아직 들려\n\n넌 무슨 얘길 하다 말고 / 나랑 같이 걸음을 멈췄어 / 초록불에 네가 이어 한 말은 / 이젠 하나도 생각 안 나",
+      "coverFileId": "20f6a64b86c0cfd47c16b313",
+      "thumbFileId": null,
+      "audioFileId": "e08e9fcbb7b4647c61341d6d",
+      "galleryFileIds": [],
+      "links": [],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "419f55c59f3a819fa08cc4a9a579d837",
+      "firstPublishedAt": "2026-11-15T05:43:45.771Z",
+      "lastPublishedAt": "2026-11-15T05:43:45.771Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-15T05:43:45.771Z",
+      "updatedAt": "2026-11-15T05:43:45.771Z",
+      "publishedFp": "11b181479790eaee64f551eadaa4fa73cc2b6ab7",
+      "pendingWriteback": true,
+      "publishWarnings": []
+    },
+    {
+      "id": "8623d17a026ed3ef77e75825",
+      "slug": "glowing-in-the-dark",
+      "category": "compositions",
+      "sub": "",
+      "title": "Glowing in the Dark",
+      "summary": "From a solitary jazz piano intro to a soaring R&B confession—capturing the weightless moment when the world disappears and you're glowing in the dark.",
+      "context": "Solo project · AI-assisted track",
+      "role": "Prompt Direction",
+      "result": "",
+      "body": "Inspired by the scene in the film Soul where the moment a pianist presses a key, the noise of the world falls away and he slips into the zone. Glowing in the Dark is about that moment: the louder the city and the deeper the night, the more brightly you glow from within when you lose yourself completely in your own small spark.\n\nThe track opens with a clear, flowing solo acoustic jazz piano, then a weighty upright bass, a lazy 88 BPM boom bap beat and low humming bring in the warmth of the late night. A calm baritone R&B vocal carries the verses, floats into falsetto as the drums drop out in the pre-hook, and bursts into soulful R&B ad-libs in the bridge before returning to the quiet solo piano for the outro. Produced solo with Suno v6 through prompt direction.\n\nTell me, have you ever lost yourself inside a single spark? / Where the world disappears and you're glowing in the dark / No past, no future, just the fire in your hands / Have you ever truly lived inside the zone where time expands?",
+      "coverFileId": "48adf88d29a50221d2d579f4",
+      "thumbFileId": null,
+      "audioFileId": "4fbee18c07ce2af44c28eb85",
+      "galleryFileIds": [],
+      "links": [],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "419f55c59f3a810d9be1c1028cc8fad3",
+      "firstPublishedAt": "2026-11-15T05:43:46.458Z",
+      "lastPublishedAt": "2026-11-15T05:43:46.458Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-15T05:43:46.458Z",
+      "updatedAt": "2026-11-15T05:43:46.458Z",
+      "publishedFp": "57468999f34c9d25b29a2db656a7b1b748060153",
+      "pendingWriteback": true,
+      "publishWarnings": []
     }
   ],
   "files": [
@@ -144,6 +208,42 @@
       "mime": "audio/x-m4a",
       "size": 3273087,
       "createdAt": "2026-11-14T15:56:39.335Z"
+    },
+    {
+      "id": "20f6a64b86c0cfd47c16b313",
+      "itemId": "89cf4ae483625fae532a53bb",
+      "kind": "cover",
+      "name": "별빛 아래 멎은 발걸음.png",
+      "mime": "image/png",
+      "size": 3168119,
+      "createdAt": "2026-11-15T05:43:45.771Z"
+    },
+    {
+      "id": "e08e9fcbb7b4647c61341d6d",
+      "itemId": "89cf4ae483625fae532a53bb",
+      "kind": "audio",
+      "name": "나란히 멎던 밤.m4a",
+      "mime": "audio/x-m4a",
+      "size": 3412915,
+      "createdAt": "2026-11-15T05:43:45.771Z"
+    },
+    {
+      "id": "48adf88d29a50221d2d579f4",
+      "itemId": "8623d17a026ed3ef77e75825",
+      "kind": "cover",
+      "name": "심야의 재즈, 피어나는 불빛.png",
+      "mime": "image/png",
+      "size": 2639442,
+      "createdAt": "2026-11-15T05:43:46.458Z"
+    },
+    {
+      "id": "4fbee18c07ce2af44c28eb85",
+      "itemId": "8623d17a026ed3ef77e75825",
+      "kind": "audio",
+      "name": "Glowing in the Dark.m4a",
+      "mime": "audio/x-m4a",
+      "size": 3953457,
+      "createdAt": "2026-11-15T05:43:46.458Z"
     }
   ],
   "categories": {
@@ -439,6 +539,18 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-15T05:43:46.459Z",
+        "level": "ok",
+        "title": "Glowing in the Dark",
+        "msg": "v1 공개 (/w/glowing-in-the-dark)"
+      },
+      {
+        "at": "2026-11-15T05:43:45.772Z",
+        "level": "ok",
+        "title": "When Our Footsteps Fell Silent",
+        "msg": "v1 공개 (/w/when-our-footsteps-fell-silent)"
+      },
       {
         "at": "2026-11-14T15:56:42.693Z",
         "level": "ok",
