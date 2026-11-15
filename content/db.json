@@ -136,8 +136,7 @@
       "createdAt": "2026-11-15T05:43:45.771Z",
       "updatedAt": "2026-11-15T05:43:45.771Z",
       "publishedFp": "11b181479790eaee64f551eadaa4fa73cc2b6ab7",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     },
     {
       "id": "8623d17a026ed3ef77e75825",
@@ -168,8 +167,7 @@
       "createdAt": "2026-11-15T05:43:46.458Z",
       "updatedAt": "2026-11-15T05:43:46.458Z",
       "publishedFp": "57468999f34c9d25b29a2db656a7b1b748060153",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     }
   ],
   "files": [
@@ -539,6 +537,18 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-15T05:43:50.192Z",
+        "level": "ok",
+        "title": "Glowing in the Dark",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
+      {
+        "at": "2026-11-15T05:43:49.862Z",
+        "level": "ok",
+        "title": "When Our Footsteps Fell Silent",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
       {
         "at": "2026-11-15T05:43:46.459Z",
         "level": "ok",
