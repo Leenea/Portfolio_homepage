@@ -17,7 +17,7 @@
       "summary": "A web app prototype that helps HUFS students find classmates heading the same way, so they can share carpools or taxi rides.",
       "context": "Team project · 2026 HUFS × NAVER Cloud Vibe Coding Competition",
       "role": "Team lead, Problem research, Service planning, Screen design, Backend & deployment lead",
-      "result": "",
+      "result": "Not selected (results announced Nov 16, 2026)",
       "body": "Built as a team entry for the 2026 Hankuk University of Foreign Studies × NAVER Cloud Vibe Coding Competition.\n\nAs team lead, I covered problem research, service planning and screen design, and led the backend and deployment.",
       "coverFileId": null,
       "galleryFileIds": [],
@@ -34,16 +34,17 @@
       "logs": [],
       "attachmentFileIds": [],
       "createdAt": "2026-11-11T11:47:12.486Z",
-      "updatedAt": "2026-11-12T14:57:45.051Z",
+      "updatedAt": "2026-11-17T11:43:34.267Z",
       "sub": "hackathons",
       "thumbFileId": null,
       "audioFileId": null,
       "notionPageId": "416f55c59f3a817e974fcc8fdcb493d6",
       "firstPublishedAt": "2026-11-12T14:57:45.051Z",
-      "lastPublishedAt": "2026-11-12T14:57:45.051Z",
-      "publishedVersion": 1,
-      "publishedFp": "3ea73e975349788b87259ffa6ee607e74ce4b5bb",
-      "pendingWriteback": false
+      "lastPublishedAt": "2026-11-17T11:43:34.267Z",
+      "publishedVersion": 2,
+      "publishedFp": "1f8f3649c7b77f3be96358966a1d6ad8fdd2cf7f",
+      "pendingWriteback": true,
+      "publishWarnings": []
     },
     {
       "id": "4c2c098881b50e0f05fb702f",
@@ -537,6 +538,12 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-17T11:43:34.281Z",
+        "level": "ok",
+        "title": "Gachitayong",
+        "msg": "v2 공개 (/w/gachitayong)"
+      },
       {
         "at": "2026-11-15T05:43:50.192Z",
         "level": "ok",
