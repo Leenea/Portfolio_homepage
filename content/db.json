@@ -43,8 +43,7 @@
       "lastPublishedAt": "2026-11-17T11:43:34.267Z",
       "publishedVersion": 2,
       "publishedFp": "1f8f3649c7b77f3be96358966a1d6ad8fdd2cf7f",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     },
     {
       "id": "4c2c098881b50e0f05fb702f",
@@ -538,6 +537,12 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-17T11:43:36.520Z",
+        "level": "ok",
+        "title": "Gachitayong",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
       {
         "at": "2026-11-17T11:43:34.281Z",
         "level": "ok",
