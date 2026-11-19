@@ -168,6 +168,38 @@
       "updatedAt": "2026-11-15T05:43:46.458Z",
       "publishedFp": "57468999f34c9d25b29a2db656a7b1b748060153",
       "pendingWriteback": false
+    },
+    {
+      "id": "46927df714f8a086683461a3",
+      "slug": "research-translation",
+      "category": "work",
+      "sub": "",
+      "title": "Research Assistant — Academic Translation",
+      "summary": "Translated English academic papers into Korean for a professor's research over about a year.",
+      "context": "Undergraduate research participation, 2023",
+      "role": "Translator",
+      "result": "",
+      "body": "From mid-2023 through the following winter, I joined a professor's research as an undergraduate participant.\n\nMy main job was translating English academic papers into Korean so the research team could work with them quickly.",
+      "coverFileId": null,
+      "thumbFileId": null,
+      "audioFileId": null,
+      "galleryFileIds": [],
+      "links": [],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "41df55c59f3a8195bb27d12a9c04135f",
+      "firstPublishedAt": "2026-11-19T17:30:13.133Z",
+      "lastPublishedAt": "2026-11-19T17:30:13.133Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-19T17:30:13.133Z",
+      "updatedAt": "2026-11-19T17:30:13.133Z",
+      "publishedFp": "10699bd799b571e45ad3d67d5a71ee84a768e12b",
+      "pendingWriteback": true,
+      "publishWarnings": []
     }
   ],
   "files": [
@@ -537,6 +569,12 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-19T17:30:13.135Z",
+        "level": "ok",
+        "title": "Research Assistant — Academic Translation",
+        "msg": "v1 공개 (/w/research-translation)"
+      },
       {
         "at": "2026-11-17T11:43:36.520Z",
         "level": "ok",
