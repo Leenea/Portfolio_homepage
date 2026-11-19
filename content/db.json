@@ -198,8 +198,7 @@
       "createdAt": "2026-11-19T17:30:13.133Z",
       "updatedAt": "2026-11-19T17:30:13.133Z",
       "publishedFp": "10699bd799b571e45ad3d67d5a71ee84a768e12b",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     }
   ],
   "files": [
@@ -569,6 +568,12 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-19T17:30:15.878Z",
+        "level": "ok",
+        "title": "Research Assistant — Academic Translation",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
       {
         "at": "2026-11-19T17:30:13.135Z",
         "level": "ok",
