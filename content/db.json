@@ -199,6 +199,129 @@
       "updatedAt": "2026-11-19T17:30:13.133Z",
       "publishedFp": "10699bd799b571e45ad3d67d5a71ee84a768e12b",
       "pendingWriteback": false
+    },
+    {
+      "id": "dde4c7f9df2361358e2c84bd",
+      "slug": "hufs-room",
+      "category": "competitions",
+      "sub": "startup",
+      "title": "HUFS Room",
+      "summary": "A housing community for HUFS's Mohyeon college town that passes building reviews, vacancy info and move-out items from one semester's tenants to the next — designed for both students and local landlords.",
+      "context": "Topic 1 (Local problem-solving startup) · 2nd G-Anchor Startup Idea Competition, Hankuk University of Foreign Studies",
+      "role": "Problem research, Service planning, Prototype development, Pitch deck design",
+      "result": "Results pending",
+      "body": "Built as an entry for Topic 1 (local problem-solving) of the 2nd G-Anchor Startup Idea Competition at Hankuk University of Foreign Studies.\n\nIn a year of Everytime posts about life in Mohyeon (3,372 unique posts), complaints about room conditions, landlords and agents were the second most common pattern. Tenants change every semester, so knowledge about a building rarely reaches the next person — and landlords face the same cycle as vacancies and repeated inquiries.\n\nHUFS Room connects semester-based sublets and roommate matching, building reviews that unlock detailed contract information when you contribute one, landlord-posted vacancies, and a move-out marketplace. Landlord needs are still a hypothesis to be validated through interviews.\n\nThe prototype is live, but all buildings, reviews and prices shown are demo data, and the map is not yet connected to a real map API. HUFS Room only supports information exchange; it does not broker contracts.",
+      "coverFileId": "18484b2e0f57d3ff74bc53b8",
+      "thumbFileId": null,
+      "audioFileId": null,
+      "galleryFileIds": [
+        "1381accff878e7963bef15a4",
+        "0fe2a7d5785465e172b15606",
+        "13e82d9b49f6c29522f3feb6"
+      ],
+      "links": [
+        {
+          "label": "Try the prototype",
+          "url": "https://hufs-room.lnh-hello-world.workers.dev/"
+        }
+      ],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "41ef55c59f3a81179a21dc48955563dc",
+      "firstPublishedAt": "2026-11-20T04:22:15.309Z",
+      "lastPublishedAt": "2026-11-20T04:22:15.309Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-20T04:22:15.309Z",
+      "updatedAt": "2026-11-20T04:22:15.309Z",
+      "publishedFp": "0b49928d3589343b376583337ebbddeb58273001",
+      "pendingWriteback": true,
+      "publishWarnings": []
+    },
+    {
+      "id": "3988ed3ab7709d7d75611f8c",
+      "slug": "hufs-wiki",
+      "category": "competitions",
+      "sub": "startup",
+      "title": "HUFS Wiki",
+      "summary": "A student-built campus encyclopedia where students record what they know and AI finds answers grounded in reviewed documents — not just another chatbot.",
+      "context": "Topic 2 (AI-powered campus innovation) · 2nd G-Anchor Startup Idea Competition, Hankuk University of Foreign Studies",
+      "role": "Problem research, Service planning, Prototype development, Pitch deck design",
+      "result": "Results pending",
+      "body": "Built as an entry for Topic 2 (AI-powered campus innovation) of the 2nd G-Anchor Startup Idea Competition at Hankuk University of Foreign Studies.\n\nCampus information is spread across notices, department sites and community boards, so the same questions keep coming back — and the tips students share get buried and disappear when they graduate.\n\nHUFS Wiki is a participation-driven knowledge platform: students search and ask, request missing pages, write and update documents for points and badges, and official pages carry their source and check date. AI then answers questions using the reviewed documents as evidence. It also archives campus culture, like seasonal records of Myeongsudang.\n\nThe prototype is live, but all documents, accounts and rankings are demo data, and it is not an official university service. AI answer generation, edit approval and server updates have not been verified yet.",
+      "coverFileId": "0203d481c748dcfc9cdacbea",
+      "thumbFileId": null,
+      "audioFileId": null,
+      "galleryFileIds": [
+        "1e95401b4cc70aeb883186d7",
+        "11838113e9739a8e873612d1",
+        "cc11d406f6a8d9331f57a935"
+      ],
+      "links": [
+        {
+          "label": "Try the prototype",
+          "url": "https://hufs-wiki.lnh-hello-world.workers.dev/"
+        }
+      ],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "41ef55c59f3a81799212f94476f0f963",
+      "firstPublishedAt": "2026-11-20T04:22:16.150Z",
+      "lastPublishedAt": "2026-11-20T04:22:16.150Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-20T04:22:16.150Z",
+      "updatedAt": "2026-11-20T04:22:16.150Z",
+      "publishedFp": "ed1b53a4d4dd3a5e23e56bf35533efeeb95afd6c",
+      "pendingWriteback": true,
+      "publishWarnings": []
+    },
+    {
+      "id": "d895dc4731e3f7dfb548cce9",
+      "slug": "global-connect",
+      "category": "competitions",
+      "sub": "startup",
+      "title": "Global Connect",
+      "summary": "A local settlement service that connects international students and residents with Korean neighbors, everyday help and foreigner-friendly shops in the Mohyeon area.",
+      "context": "Topic 3 (Settlement support for international students and foreign residents) · 2nd G-Anchor Startup Idea Competition, Hankuk University of Foreign Studies",
+      "role": "Problem research, Service planning, Prototype development, Pitch deck design",
+      "result": "Results pending",
+      "body": "Built as an entry for Topic 3 (settlement support for international students and foreign residents) of the 2nd G-Anchor Startup Idea Competition at Hankuk University of Foreign Studies.\n\nSettling into a small college town takes both information — visas, banking, healthcare, housing — and people to ask. Global Connect is not just a social app: it gives settlement support the same weight as meetups.\n\nIt connects four parts: Meet & Chat for everyday meetups and a multilingual community, Living for practical guides with sources and check dates, Help for everyday requests like a bank visit, and Global Friendly for local shops with language support. Local merchants gain new customers and meeting places — a benefit still to be validated through interviews.\n\nThe prototype is live, but all meetups, people and shops shown are demo data. Translation, real-time chat and partner shops have not been verified, and the service does not provide medical, legal or visa-agency services.",
+      "coverFileId": "914fe4556527a516f8b66951",
+      "thumbFileId": null,
+      "audioFileId": null,
+      "galleryFileIds": [
+        "0a90af649dfafd28b68f5927",
+        "722dde99d47ee9748155ab51",
+        "1f7ebf59256e95c6680a7bb3"
+      ],
+      "links": [
+        {
+          "label": "Try the prototype",
+          "url": "https://global-connect-steel.vercel.app/"
+        }
+      ],
+      "isPublic": true,
+      "isFeatured": false,
+      "sort": 0,
+      "privateNotes": "",
+      "logs": [],
+      "attachmentFileIds": [],
+      "notionPageId": "41ef55c59f3a81adb771f4f6a5cb9048",
+      "firstPublishedAt": "2026-11-20T04:22:16.864Z",
+      "lastPublishedAt": "2026-11-20T04:22:16.864Z",
+      "publishedVersion": 1,
+      "createdAt": "2026-11-20T04:22:16.864Z",
+      "updatedAt": "2026-11-20T04:22:16.864Z",
+      "publishedFp": "ab8500efb53838d1f6582ab519bcac1cca5bf089",
+      "pendingWriteback": true,
+      "publishWarnings": []
     }
   ],
   "files": [
@@ -273,6 +396,114 @@
       "mime": "audio/x-m4a",
       "size": 3953457,
       "createdAt": "2026-11-15T05:43:46.458Z"
+    },
+    {
+      "id": "18484b2e0f57d3ff74bc53b8",
+      "itemId": "dde4c7f9df2361358e2c84bd",
+      "kind": "cover",
+      "name": "hufs-room-2.jpg",
+      "mime": "image/jpeg",
+      "size": 308448,
+      "createdAt": "2026-11-20T04:22:15.309Z"
+    },
+    {
+      "id": "1381accff878e7963bef15a4",
+      "itemId": "dde4c7f9df2361358e2c84bd",
+      "kind": "gallery",
+      "name": "hufs-room-1.jpg",
+      "mime": "image/jpeg",
+      "size": 345812,
+      "createdAt": "2026-11-20T04:22:15.309Z"
+    },
+    {
+      "id": "0fe2a7d5785465e172b15606",
+      "itemId": "dde4c7f9df2361358e2c84bd",
+      "kind": "gallery",
+      "name": "hufs-room-2.jpg",
+      "mime": "image/jpeg",
+      "size": 308448,
+      "createdAt": "2026-11-20T04:22:15.309Z"
+    },
+    {
+      "id": "13e82d9b49f6c29522f3feb6",
+      "itemId": "dde4c7f9df2361358e2c84bd",
+      "kind": "gallery",
+      "name": "hufs-room-3.jpg",
+      "mime": "image/jpeg",
+      "size": 308239,
+      "createdAt": "2026-11-20T04:22:15.309Z"
+    },
+    {
+      "id": "0203d481c748dcfc9cdacbea",
+      "itemId": "3988ed3ab7709d7d75611f8c",
+      "kind": "cover",
+      "name": "hufs-wiki-cover.jpg",
+      "mime": "image/jpeg",
+      "size": 311537,
+      "createdAt": "2026-11-20T04:22:16.150Z"
+    },
+    {
+      "id": "1e95401b4cc70aeb883186d7",
+      "itemId": "3988ed3ab7709d7d75611f8c",
+      "kind": "gallery",
+      "name": "hufs-wiki-1.jpg",
+      "mime": "image/jpeg",
+      "size": 341580,
+      "createdAt": "2026-11-20T04:22:16.150Z"
+    },
+    {
+      "id": "11838113e9739a8e873612d1",
+      "itemId": "3988ed3ab7709d7d75611f8c",
+      "kind": "gallery",
+      "name": "hufs-wiki-2.jpg",
+      "mime": "image/jpeg",
+      "size": 311537,
+      "createdAt": "2026-11-20T04:22:16.150Z"
+    },
+    {
+      "id": "cc11d406f6a8d9331f57a935",
+      "itemId": "3988ed3ab7709d7d75611f8c",
+      "kind": "gallery",
+      "name": "hufs-wiki-3.jpg",
+      "mime": "image/jpeg",
+      "size": 294379,
+      "createdAt": "2026-11-20T04:22:16.150Z"
+    },
+    {
+      "id": "914fe4556527a516f8b66951",
+      "itemId": "d895dc4731e3f7dfb548cce9",
+      "kind": "cover",
+      "name": "global-connect-cover.jpg",
+      "mime": "image/jpeg",
+      "size": 332623,
+      "createdAt": "2026-11-20T04:22:16.864Z"
+    },
+    {
+      "id": "0a90af649dfafd28b68f5927",
+      "itemId": "d895dc4731e3f7dfb548cce9",
+      "kind": "gallery",
+      "name": "global-connect-1.jpg",
+      "mime": "image/jpeg",
+      "size": 368475,
+      "createdAt": "2026-11-20T04:22:16.864Z"
+    },
+    {
+      "id": "722dde99d47ee9748155ab51",
+      "itemId": "d895dc4731e3f7dfb548cce9",
+      "kind": "gallery",
+      "name": "global-connect-2.jpg",
+      "mime": "image/jpeg",
+      "size": 332623,
+      "createdAt": "2026-11-20T04:22:16.864Z"
+    },
+    {
+      "id": "1f7ebf59256e95c6680a7bb3",
+      "itemId": "d895dc4731e3f7dfb548cce9",
+      "kind": "gallery",
+      "name": "global-connect-3.jpg",
+      "mime": "image/jpeg",
+      "size": 296834,
+      "createdAt": "2026-11-20T04:22:16.864Z"
     }
   ],
   "categories": {
@@ -568,6 +799,24 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-20T04:22:16.865Z",
+        "level": "ok",
+        "title": "Global Connect",
+        "msg": "v1 공개 (/w/global-connect)"
+      },
+      {
+        "at": "2026-11-20T04:22:16.151Z",
+        "level": "ok",
+        "title": "HUFS Wiki",
+        "msg": "v1 공개 (/w/hufs-wiki)"
+      },
+      {
+        "at": "2026-11-20T04:22:15.310Z",
+        "level": "ok",
+        "title": "HUFS Room",
+        "msg": "v1 공개 (/w/hufs-room)"
+      },
       {
         "at": "2026-11-19T17:30:15.878Z",
         "level": "ok",
