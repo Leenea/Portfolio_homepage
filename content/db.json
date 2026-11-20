@@ -238,8 +238,7 @@
       "createdAt": "2026-11-20T04:22:15.309Z",
       "updatedAt": "2026-11-20T04:22:15.309Z",
       "publishedFp": "0b49928d3589343b376583337ebbddeb58273001",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     },
     {
       "id": "3988ed3ab7709d7d75611f8c",
@@ -279,8 +278,7 @@
       "createdAt": "2026-11-20T04:22:16.150Z",
       "updatedAt": "2026-11-20T04:22:16.150Z",
       "publishedFp": "ed1b53a4d4dd3a5e23e56bf35533efeeb95afd6c",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     },
     {
       "id": "d895dc4731e3f7dfb548cce9",
@@ -320,8 +318,7 @@
       "createdAt": "2026-11-20T04:22:16.864Z",
       "updatedAt": "2026-11-20T04:22:16.864Z",
       "publishedFp": "ab8500efb53838d1f6582ab519bcac1cca5bf089",
-      "pendingWriteback": true,
-      "publishWarnings": []
+      "pendingWriteback": false
     }
   ],
   "files": [
@@ -799,6 +796,24 @@
     "lastRunAt": null,
     "lastOkAt": null,
     "log": [
+      {
+        "at": "2026-11-20T04:22:19.998Z",
+        "level": "ok",
+        "title": "Global Connect",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
+      {
+        "at": "2026-11-20T04:22:19.694Z",
+        "level": "ok",
+        "title": "HUFS Wiki",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
+      {
+        "at": "2026-11-20T04:22:19.387Z",
+        "level": "ok",
+        "title": "HUFS Room",
+        "msg": "노션에 발행 결과를 적었어요."
+      },
       {
         "at": "2026-11-20T04:22:16.865Z",
         "level": "ok",
